@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../image/imagenm.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: rgba(162, 161, 161, 0.228);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.895);
+    width: 400px;
+    height: 420px;
+}
+
+.login-form h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.input-group label {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group svg {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 10px 40px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(103, 77, 112, 0.688);
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+.remember-me {
+    margin-bottom: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #6c5ce7;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #4327a7;
+}
+
+.forgot-password {
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.forgot-password a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+    color: #ccc;
+}
+
+.register {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register a:hover {
+    color: #ccc;
+}
